@@ -1,9 +1,9 @@
 #DATE_TIME
 
-var value = new Date ("December, 30,2000 20:00:00")
-var donustur = String(value)
-var parcala = donustur.split(" ")
-var birinciDeger = parcala[0]
+var value = new Date ("December, 30,2000 20:00:00");
+var donustur = String(value);
+var parcala = donustur.split(" ");
+var birinciDeger = parcala[0];
 
 getFullYear()    getUTCFullYear()         : 1000 - 9999          setFullYear()       setUTCFullYear()       : 1000 - 9999   Çoklu ayarlama işlemi yapılabilir (2053 , 12 , 31)
 getMonth()       getUTCMonth()            : 0 - 11               setMonth()          setUTCMonth()          : 0 - 11        Çoklu ayarlama işlemi yapılabilir (11 , 31)
